@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReproLib\ReproLib.csproj" />
+	<Reference Include="System.ServiceModel" />
+  </ItemGroup>
+
+  <!-- if we target net8, needs this:
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.NetNamedPipe" Version="8.1.0" />
+  </ItemGroup>
+  -->
+
+</Project>

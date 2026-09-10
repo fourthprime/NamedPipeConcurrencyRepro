@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ReproLib/ReproLib.csproj" />
+  <Project Path="ReproService/ReproService.csproj" />
+  <Project Path="ReproClient48/ReproClient48.csproj" />
+  <Project Path="ReproClient80/ReproClient80.csproj" />
+</Solution>
