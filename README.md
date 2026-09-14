@@ -1,5 +1,7 @@
 Self-contained test solution that demonstrates regression in System.ServiceModel.NetNamedPipe 8.1.2 when compared against System.ServiceModel in .NET Framework 4.8.1.
 
+Corresponding issue tracked at https://github.com/dotnet/wcf/issues/5977
+
 The solution contains:
 
 - `ReproLib` — shared service contract/types
